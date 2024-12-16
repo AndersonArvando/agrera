@@ -1,0 +1,29 @@
+header {
+    height: 100px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-right: 0.75rem;
+        margin-left: 0.75rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+.nav-link span, .nav-link:hover span, .nav-link:focus span {
+    color: #028430;
+    font-weight: bold;
+}
+.navbar-nav .nav-link.active span, .navbar-nav .nav-link.show span {
+    color: #028430;
+    font-weight: bold;
+}
+
+
+.navbar-nav .nav-link.active span, .navbar-nav .nav-link.show span {
+    color: #028430;
+    font-weight: bold;
+    border-bottom: 3px solid #D1AA00;
+}

@@ -1,0 +1,105 @@
+body {
+  color: #373900;
+}
+
+.text-body {
+  color: #373900 !important;
+}
+
+.color-primary {
+  color: #028430 !important;
+}
+
+.bg-primary {
+  background-color: #028430 !important;
+}
+
+.color-secondary {
+  color: #FFDA3A;
+}
+.bg-secondary {
+  background-color: #FFDA3A !important;
+}
+
+.text-grey {
+  color: #949494;
+}
+
+.text-subtitle {
+  color: #585858;
+}
+
+#background .carousel-control-prev {
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #028430;
+  width: auto;
+  margin-left: 2rem;
+  border-radius: 50%;
+  color: #FFDA3A;
+  padding: 20px;
+}
+
+#background .carousel-control-next {
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #028430;
+  width: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+  color: #FFDA3A;
+  padding: 20px;
+}
+
+#background .carousel-control-prev span {
+  width: 24px;
+  height: 24px;
+  background-image: url("./image/prev.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#background .carousel-control-next span {
+  width: 24px;
+  height: 24px;
+  background-image: url("./image/next.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.background-image {
+  min-height: 600px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .background-image {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+#yang-kami-tawarkan-section .carousel-control-prev span {
+  width: 24px;
+  height: 24px;
+  background-image: url("./image/tawarkan-prev.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#yang-kami-tawarkan-section .carousel-control-next span {
+  width: 24px;
+  height: 24px;
+  background-image: url("./image/tawarkan-next.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "react-node-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd src/server && npm install && npm start",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && concurrently \"cd src/server && nodemon\" \"cd src/client && npm start\"",
+    "logs": "heroku logs -t",
+    "heroku-postbuild": "cd src/client && npm install && npm run build"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.11.11",
+    "multer": "^1.4.5-lts.1",
+    "sweetalert2": "^11.14.5"
+  },
+  "engines": {
+    "node": ">=12.16.1",
+    "npm": ">=6.13.4"
+  }
+}

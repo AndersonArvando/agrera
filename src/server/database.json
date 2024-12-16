@@ -1,0 +1,24 @@
+{
+  
+    "prod": {
+      "driver": "mysql",
+      "user": "root",
+      "password": "root"
+    },
+    "dev": {
+      "host": "localhost",
+      "user": { "ENV" : "LOCAL_DB_USERNAME" },
+      "password" : { "ENV" : "LOCAL_DB_PASSWORD" },
+      "database": "stupen",
+      "driver": "mysql",
+      "multipleStatements": true
+    },
+    "local": {
+      "host": "localhost",
+      "user": { "ENV" : "DB_USER" },
+      "password" : { "ENV" : "DB_PASS" },
+      "database": "stupen",
+      "driver": "mysql",
+      "multipleStatements": true
+    }
+  }
